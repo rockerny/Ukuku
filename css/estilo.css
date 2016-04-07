@@ -1,0 +1,36 @@
+/*--==================== ESTILOS GENERALES ========================--*/
+body{
+	margin: 0;
+	width: 100%;
+}
+.clear{
+	clear: both;
+}
+
+.fondo-negro{
+	background-color: black;	
+	width: 100%;
+
+	height: 400px;
+}
+.fondo-negro ul{
+	color: white;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding-top: 4%;
+
+}
+.fondo-negro li:nth-child(3){
+	width: 15%;
+}
+.fondo-negro img{
+	margin-top: -20%;
+	width: 100%;
+}
+.fondo-negro a{
+	color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+}
